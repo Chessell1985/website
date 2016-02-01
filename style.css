@@ -17,12 +17,20 @@ section {
 h1, h2, h3, h4 {
 	margin: 20px 10px;
 	padding: 0;
-	text-shadow: 3px 3px #001100;
+	text-shadow: 2px 2px #001100;
 }
 
 p {
-	margin: 10px 15px;
+	margin: 10px 10px;
 	padding: 0;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #cccccc;
 }
 
 #title {
@@ -79,7 +87,7 @@ ul#navigation li a {
 
 ul#navigation li a:hover {
 	background-color: #447744;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 1px 2px #000000;
 }
 
 ul#contacts {
@@ -138,6 +146,45 @@ ul#contacts li a#icon_twitter {
 ul#contacts li a#icon_linkedin {
 	background-image: url("icon_linkedin.png");
 }
+
+img#banner_image {
+	margin: 50px auto;
+}
+
+section#about {
+	border-radius: 0 0 16px 0;
+	background-color: #006622;
+	padding: 10px;
+	margin: 50px auto;
+}
+
+section#onegam {
+	border-radius: 0 0 16px 0;
+	background-color: #995500;
+	padding: 10px;
+	margin: 50px auto;
+}
+
+section .text {
+	float: left;
+	width: 700px;
+}
+
+section .image {
+	float: right;
+	text-align: right;
+	width: 200px;
+	padding: 10px;
+}
+
+section p {
+	margin: 10px;
+}
+
+footer {
+	border-top: 1px solid #ffffff;
+}
+
 
 blank {	
 	-moz-transition: background .2s linear;
