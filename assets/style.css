@@ -1,0 +1,194 @@
+/* created 01/01/16 by Liam Chessell */
+
+body {
+	margin: 50px auto;
+	padding: 0;
+	width: 960px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #eeeeee;
+	background-color: #003300;
+}
+
+section {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	margin: 20px 10px;
+	padding: 0;
+	text-shadow: 2px 2px #001100;
+}
+
+p {
+	margin: 10px 10px;
+	padding: 0;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+#title {
+	vertical-align: middle;
+}
+
+#title_text {
+	float: left;
+}
+
+#title_image {
+	margin: 10px;
+	padding: 0;
+	float: left;
+}
+
+section#links {
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	margin: 20px 0;
+	padding: 0;
+	height: 52px;
+}
+
+ul#navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+ul#navigation li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	line-height: 52px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+ul#navigation li a {
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 52px;
+	color: #ffffff;
+	-moz-transition: background .2s linear;
+	-webkit-transition: background .2s linear;
+	-o-transition: background .2s linear;
+	transition: background .2s linear;
+}
+
+ul#navigation li a:hover {
+	background-color: #447744;
+	text-shadow: 1px 2px #000000;
+}
+
+ul#contacts {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+ul#contacts li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	line-height: 32px;
+	vertical-align: middle;
+	-moz-transition: background .2s linear;
+	-webkit-transition: background .2s linear;
+	-o-transition: background .2s linear;
+	transition: background .2s linear;
+}
+
+ul#contacts li:hover {
+	background-color: #447744;
+}
+
+ul#contacts li a {
+	display: block;
+	text-decoration: none;
+	margin: 10px;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	color: #ffffff;
+}
+
+ul#contacts li a#icon_email {
+	background-image: url("icon_email.png");
+}
+
+ul#contacts li a#icon_itchio {
+	background-image: url("icon_itchio.png");
+}
+
+ul#contacts li a#icon_github {
+	background-image: url("icon_github.png");
+}
+
+ul#contacts li a#icon_tumblr {
+	background-image: url("icon_tumblr.png");
+}
+
+ul#contacts li a#icon_twitter {
+	background-image: url("icon_twitter.png");
+}
+
+ul#contacts li a#icon_linkedin {
+	background-image: url("icon_linkedin.png");
+}
+
+img#banner_image {
+	margin: 50px auto;
+}
+
+section#about {
+	border-radius: 0 0 16px 0;
+	background-color: #006622;
+	padding: 10px;
+	margin: 50px auto;
+}
+
+section#onegam {
+	border-radius: 0 0 16px 0;
+	background-color: #995500;
+	padding: 10px;
+	margin: 50px auto;
+}
+
+section .text {
+	float: left;
+	width: 700px;
+}
+
+section .image {
+	float: right;
+	text-align: right;
+	width: 200px;
+	padding: 10px;
+}
+
+section p {
+	margin: 10px;
+}
+
+footer {
+	border-top: 1px solid #ffffff;
+}
+
+
+blank {	
+	-moz-transition: background .2s linear;
+	-webkit-transition: background .2s linear;
+	-o-transition: background .2s linear;
+	transition: background .2s linear;
+}
